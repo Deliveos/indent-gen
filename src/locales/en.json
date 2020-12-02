@@ -1,0 +1,7 @@
+{
+     "file": "File name, or path with file name",
+     "start": "Start of the range",
+     "end": "End of the range",
+     "type": "Indent type",
+     "units": "Units for padding or margin"
+}
