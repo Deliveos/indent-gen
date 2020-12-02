@@ -3,5 +3,6 @@
      "start": "Start of the range",
      "end": "End of the range",
      "type": "Indent type",
-     "units": "Units for padding or margin"
+	 "units": "Units for padding or margin",
+	 "add-units": "Add units to class name"
 }

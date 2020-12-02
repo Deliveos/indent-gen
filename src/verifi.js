@@ -69,7 +69,7 @@ module.exports = {
         units = "ch"
         break
       default:
-        units = "px"
+        units = null
     }
     return units
   }
