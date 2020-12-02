@@ -1,6 +1,7 @@
 ### Install
 
-```git clone https://github.com/Deliveos/indent-gen.git
+```
+git clone https://github.com/Deliveos/indent-gen.git
 cd indent-get
 node indent-get -h
 ```
@@ -9,13 +10,24 @@ node indent-get -h
 
 Show current package version number
 
-```--version
-
+```
+--version
 ```
 
--f, --file File name, or path with file name [string type] [required]
--s, --start Start of the range [number] [default: 0]
--e, --end End of the range [number] [default: 0]
--t, --type Indent type [string type] [required]
--u, --units Units for padding or margin [string type] [default: "px"]
--h, --help Show help [boolean]
+File name, or path with file name
+`-f` or `--file`
+
+Start of the range. Default value 0
+`-s` or `--start `
+
+End of the range. Default value 0
+`-e` or `--end`
+
+Margin or padding type
+`-t` or `--type`
+
+Units for padding or margin. Default units is px
+`-u` or `--units`
+
+Show help
+`-h` or `--help`
