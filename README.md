@@ -8,6 +8,7 @@ node indent-get -h
 ```
 
 ### Keys and toggles
+<<<<<<< HEAD
 
 - Toggle `--version`. Show current package version number.
 - Key `-f` or `--file`. File name, or path with file name. The script does not create new directories, only a file, so you need to specify the existing directories.
@@ -133,3 +134,26 @@ In the style.css file:
 .m-9 { margin: 9px; }
 .m-10 { margin: 10px; }
 ```
+=======
+
+- Toggle `--version`. Show current package version number.
+- Key `-f` or `--file`. File name, or path with file name. The script does not create new directories, only a file, so you need to specify the existing directories.
+- Key `-s` or `--start`. Start of the range. Default value 0.
+- Key `-e` or `--end`. End of the range. Default value 0.
+- Key `-t` or `--type`. Margin or padding type. Valid values:
+
+  - `m` equal _margin_
+  - `mt` equal _margin-top_
+  - `mr` equal _margin-right_
+  - `mb` equal _margin-bottom_
+  - `ml` equal _margin-left_
+  - `p` equal _padding_
+  - `pt` equal _padding-top_
+  - `pr` equal _padding-right_
+  - `pb` equal _padding-bottom_
+  - `pl` equal _padding-left_
+
+- Key `-u` or `--units`. Units for padding or margin. Default units is px. Valid values:<br>
+  `px`, `per` equal _%_, `em`, `rem`, `vh`, `vw`, `vmin`, `vmax`, `ex`, `ch`
+- Toggle `-h` or `--help`. Show help.
+>>>>>>> ac9a509d3cd0cfe16ad8cc8b1d53b193813c329c
