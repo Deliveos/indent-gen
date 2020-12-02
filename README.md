@@ -26,5 +26,6 @@ node indent-get -h
   - `pb` equal _padding-bottom_
   - `pl` equal _padding-left_
 
-- Key `-u` or `--units`. Units for padding or margin. Default units is px.
+- Key `-u` or `--units`. Units for padding or margin. Default units is px. Valid values:<br>
+  `px`, `per` equal _%_, `em`, `rem`, `vh`, `vw`, `vmin`, `vmax`, `ex`, `ch`
 - Toggle `-h` or `--help`. Show help.
