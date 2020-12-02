@@ -5,29 +5,18 @@ git clone https://github.com/Deliveos/indent-gen.git
 cd indent-get
 node indent-get -h
 ```
-
 ### Key
 
-Show current package version number
+Key `--version`. Show current package version number.
 
-```
---version
-```
+Key `-f` or `--file`. File name, or path with file name.
 
-File name, or path with file name
-`-f` or `--file`
+Key `-s` or `--start`. Start of the range. Default value 0.
 
-Start of the range. Default value 0
-`-s` or `--start `
+Key `-e` or `--end`. End of the range. Default value 0.
 
-End of the range. Default value 0
-`-e` or `--end`
+Key `-t` or `--type`. Margin or padding type.
 
-Margin or padding type
-`-t` or `--type`
+Key `-u` or `--units`. Units for padding or margin. Default units is px.
 
-Units for padding or margin. Default units is px
-`-u` or `--units`
-
-Show help
-`-h` or `--help`
+Key `-h` or `--help`. Show help.
